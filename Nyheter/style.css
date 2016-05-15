@@ -1,0 +1,100 @@
+html {
+    background-image: url('wp2.png');
+    background-repeat: round;
+}
+html,
+body {
+    margin: 0;
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.wrapper {
+    height: auto;
+}
+footer {
+    display: table-row;
+    color: white;
+    height: 1px;
+}
+.nav {
+    border: 1px solid #ccc;
+    border-width: 1px 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.text1 {
+    color: white;
+    float: left;
+    margin-top: 120px;
+    width: 400px;
+    margin-left: 100px;
+}
+.text2 {
+    float: right;
+    color: white;
+    margin-top: 120px;
+    width: 400px;
+    margin-right: 100px
+}
+.nav li {
+    display: inline;
+}
+.nav a {
+    display: inline-block;
+    padding: 10px;
+}
+.nav2 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 13px;
+}
+.nav2 li {
+    display: inline;
+}
+.nav2 a {
+    display: inline-block;
+    ;
+    padding: 10px;
+}
+.header {
+    font-size: 25px;
+    text-align: center;
+    color: #f44336;
+}
+a:link,
+a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px;
+}
+a:hover,
+a:active {
+    background-color: grey;
+}
+.film {
+    display: block;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+@media (max-width: 600px) {
+    html {
+        background-image: none;
+        background-color: rgb(192, 192, 192);
+    }
+    .text1,
+    .text2 {
+        text-align: center;
+    }
+    .text2 {
+        margin-top: 50px;
+    }
+}

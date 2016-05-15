@@ -1,0 +1,122 @@
+html {
+    background-image: url('wp2.png');
+    background-repeat: round;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(SansationLight.woff);
+}
+html,
+body {
+    margin: 0;
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.wrapper {
+    height: auto;
+}
+footer {
+    display: table-row;
+    color: white;
+    height: 1px;
+}
+.text {
+    background-color: rgba(230, 230, 255, 0.6);
+    width: 40%;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.text2 {
+    background-color: rgba(230, 230, 255, 0.6);
+    border-radius: 5px;
+    width: 40%;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.nav {
+    border: 1px solid #ccc;
+    border-width: 1px 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.nav li {
+    display: inline;
+}
+.nav a {
+    display: inline-block;
+    padding: 10px;
+}
+.nav2 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 13px;
+}
+.nav2 li {
+    display: inline;
+}
+.nav2 a {
+    display: inline-block;
+    ;
+    padding: 10px;
+}
+.header {
+    font-size: 25px;
+    text-align: center;
+    color: #f44336;
+}
+a:link,
+a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px;
+}
+a:hover,
+a:active {
+    background-color: grey;
+}
+p {
+    font-family: myFirstFont;
+    font-weight: bold;
+    font-size: 20px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+}
+.bild1 {
+    float: left;
+}
+.bild2 {
+    float: right;
+}
+@media (max-width: 1300px) {
+    .bild1,
+    .bild2 {
+        display: none;
+    }
+}
+@media (max-width: 800px) {
+    .text,
+    .text2 {
+        width: 100%
+    }
+}
+@media (max-width: 800px) {
+    html {
+        background-image: none;
+        background-color: rgb(192, 192, 192);
+    }
+}
